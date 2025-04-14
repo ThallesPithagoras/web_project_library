@@ -1,7 +1,7 @@
 .page {
   min-width: 1100px;
   max-width: 1600px;
-  margin: 0 auto;
+  margin: auto;
   font-family: Arial;
   font-size: 16px;
   line-height: 20px;
@@ -46,17 +46,21 @@
 .header__content {
   display: flex;
   justify-content: space-between;
+  margin-top: 32px;
 }
 
 .header__title {
+  width: 100%;
   max-width: 635px;
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
+  row-gap: 32px;
   margin: 128px;
 }
 
 .header__description {
+  width: 100%;
   max-width: 515px;
   font-size: 20px;
   line-height: 30px;
@@ -64,8 +68,9 @@
 }
 
 .header__image {
+  width: 50%;
+  margin: 20px;
   max-width: 636px;
-  margin: auto;
 }
 
 .header__footer {
@@ -87,6 +92,14 @@
   color: #838383;
 }
 
+.main{
+  width: 100%;
+}
+
+.section {
+margin-bottom: 40px;
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -95,6 +108,7 @@
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   background-size: cover;
+  background-position: center;
   padding: 100px 0 140px;
 }
 
@@ -119,11 +133,12 @@
 .staff__cards {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 40px;
+  gap: 40px 40px;
+  list-style-type: none;
   flex-wrap: wrap;
   margin: 68px auto 0;
   max-width: 760px;
+  padding: 0;
 }
 
 .card {
@@ -160,4 +175,230 @@
   font-size: 14px;
   line-height: 20px;
   color: #838383;
+}
+
+.events {
+  padding: 100px 0 120px 80px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background: #f2f2f2;
+}
+
+.events__content {
+  flex-basis: 580px;
+}
+
+.events__heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__title {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+  margin: 32px 0 0;
+}
+
+.events__info-section {
+  margin-top: 32px;
+}
+
+.event-info__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.event-info__icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.event-info__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__description {
+  margin: 40px 0 60px;
+}
+
+.events_more {
+  color: #3987ee;
+  text-decoration: none;
+}
+
+.events__cover {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 780px;
+  max-width: 780px;
+  position: relative;
+}
+
+.events__image {
+  max-width: 100%;
+}
+
+.person {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.person_name_feynman {
+  top: -30px;
+  left: 319px;
+}
+
+.person_name_burbidge {
+  top: 96px;
+  right: 125px;
+}
+
+.person_name_cannon {
+  bottom: 18px;
+  right: 216px;
+}
+
+.person_name_mitchell {
+  bottom: 82px;
+  left: 142px;
+}
+
+.person_name_tarter {
+  top: 79px;
+  left: 159px;
+}
+
+.person__image {
+  max-width: 100%;
+}
+.person__image_size_l {
+  width: 140px;
+}
+
+.person__image_size_m {
+  width: 100px;
+}
+
+.person__image_size_s {
+  width: 80px;
+}
+
+.person__caption {
+  text-align: center;
+  font-size: 14px;
+  margin: 0;
+}
+
+.membership {
+  padding: 100px 0 120px 80px;
+  background-color: #2f80ed;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.step {
+  flex-basis: 220px;
+}
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 60px 80px;
+}
+
+.footer__columns {
+  display: flex;
+}
+
+.footer__column_funcionamento{
+margin-left: auto;
+}
+
+.footer__column_social {
+ margin-left: 80px;
+}
+
+.footer__logo {
+width: 58px;
+height: 80px;
+}
+
+.footer__column_heading {
+  margin-bottom: 40px;
+}
+
+.footer__list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.footer__column_link {
+  display: flex;
+  color: #ffffff;
+  text-decoration: none;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.footer__social_icon {
+  width: 16px;
+  height: 16px;
+}
+
+.footer__copy {
+  margin-top: 100px;
 }

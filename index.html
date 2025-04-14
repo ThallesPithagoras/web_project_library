@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
+
   <body>
     <div class="page">
       <header class="header">
@@ -18,41 +19,49 @@
             class="nav__logo"
           />
           <ul class="nav__links">
-            <li><a href="#staff" class="nav__link">Escolhas da Equipe</a></li>
-            <li><a href="#" class="nav__link">Eventos</a></li>
-            <li><a href="#" class="nav__link">Seja um membro</a></li>
-            <li><a href="#" class="nav__link">Contatos</a></li>
+             <li>
+               <a href="#staff" class="nav__link">Escolhas da Equipe</a>
+            </li>
+            <li>
+               <a href="#events" class="nav__link">Eventos</a>
+            </li>
+            <li>
+                <a href="#membership" class="nav__link">Seja um membro</a>
+            </li>
+            <li>
+               <a href="#footer" class="nav__link">Contatos</a>
+            </li>
           </ul>
         </nav>
         <div class="header__content">
-          <div>
-            <h1 class="header__title">Bem-vindo à Biblioteca Triple Peaks</h1>
-            <p class="header__description">
+            <div>
+               <h1 class="header__title">Bem-vindo à Biblioteca Triple Peaks</h1>
+               <p class="header__description">
               Temos o prazer de abrir as portas da nossa biblioteca a todos!
               Venha expandir seus conhecimentos de desenvolvimento, ou apenas
               use esse belo local para trabalhar ou estudar. Esse é um lugar
               legal para estudantes legais!
-            </p>
-          </div>
-          <img
-            src="./images/inside_the_library.png"
-            alt="Ilustração 'Dentro da biblioteca'"
-            class="header__image"
+               </p>
+             </div>
+            <img
+             src="./images/inside_the_library.png"
+             alt="Ilustração 'Dentro da biblioteca'"
+             class="header__image"
           />
         </div>
       </header>
-      <footer class="header__footer">
-        <p class="header__address">Triple Peaks, 200 Success Avenue</p>
-      </footer>
-      <main class="content">
-        <section class="staff" id="staff">
-          <h2 class="staff__title">Escolhas da Equipe</h2>
-          <p class="staff__subtitle">Que nossos leitores adoram</p>
-          <ul class="staff__cards">
-            <li class="card">
+       <footer class="header__footer">
+          <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+        </footer>
+        <main class="content">
+            <section class="staff" id="staff">
+              <h2 class="staff__title">Escolhas da Equipe</h2>
+              <p class="staff__subtitle">Que nossos leitores adoram</p>
+              <ul class="staff__cards">
+             <li class="card">
               <div class="card__content">
-                <h3 class="card__title">Algoritmos: Teoria e Prática</h3>
-                <p class="card__text">
+                 <h3 class="card__title">Algoritmos: Teoria e Prática</h3>
+                 <p class="card__text">
                   Esse livro é uma introdução adequada aos algoritmos!
                   Introdução aos algoritmos, ou CLRS, em referência aos
                   sobrenomes dos autores, aprofunda e abrange uma variedade de
@@ -64,6 +73,7 @@
                 </p>
               </div>
             </li>
+
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">
@@ -82,6 +92,7 @@
                 </p>
               </div>
             </li>
+
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">
@@ -99,25 +110,208 @@
                 <p class="card__footer">Steve McConnell</p>
               </div>
             </li>
-            <li class="card">
-              <div class="card__content">
-                <h3 class="card__title">
+
+             <li class="card">
+                <div class="card__content">
+                 <h3 class="card__title">
                   Code Complete: Um Manual Prático de Construção de Software
-                </h3>
-                <p class="card__text">
+                 </h3>
+                  <p class="card__text">
                   Quer saber como escrever um código robusto, independentemente
                   da arquitetura por trás da linguagem de programação escolhida?
                   Em seguida, considere a leitura do livro: Code Complete: Um
                   Manual Prático de Construção de Software. Construção. Ele
                   aborda de forma abrangente tudo relacionado à boa estrutura de
                   código.
-                </p>
-                <p class="card__footer">Steve McConnell</p>
+                  </p>
+                  <p class="card__footer">Steve McConnell</p>
+                </div>
+             </li>
+           </ul>
+         </section>
+          <section class="events" id="events">
+             <div class="events__content">
+              <h2 class="events__heading">Próximos evenetos:</h2>
+              <h3 class="events__title">
+               Em homengem à Joan Feynman: Mulheres na Astrofísica
+               </h3>
+              <div class="event-info events__info-section">
+              <div class="event-info__item">
+                <img
+                   src="./images/icon_calendar.svg"
+                   alt="calendar icon"
+                   class="event-info__icon"
+                    />
+                 <p class="event-info__text">Segunda-feira, 12 de janeiro</p>
+             </div>
+            <div class="event-info__item">
+                <img
+                 class="event-info__icon"
+                 src="./images/icon_pin.svg"
+                 alt="Pin icon"
+                />
+               <p class="event-info__text">
+               Sala de Conferencias da Biblioteca Triple Peaks e Online
+               </p>
+            </div>
+          </div>
+           <p class="events__description">
+             Nesse evento, que homenageia o homônimo da biblioteca, nossa palestrante
+             convidada nos levará a uma jornada explorando algumas das mais proeminentes
+             pesquisadoras do mundo da ciência espacial. É fácil acreditar na ideia
+             equivocada de que esse campo era domidado principalmente por homens, mas
+             nossa palestrante tem como objetivo mudar essa visão e provar que isso não
+             acontece desde pelo menos o século XVIII.
+           </p>
+         <a href="#" class="events events_more">Mais eventos &rarr;</a>
+         </div>
+         <div class="events__cover">
+            |<img
+               class="events__image"
+               src="./images/cafe.png"
+               alt="Imagem da sala de cafe"
+              />
+            <div class="person person_name_feynman">
+               <p class="person__caption">Joan Feynman</p>
+               <img
+                 class="person__image person__image_size_l"
+                 src="./images/person_feynman.png"
+                 alt="Photo Joan Feynman"
+                 />
+            </div>
+            <div class="person person_name_burbidge">
+              <p class="person__caption">Margaret Burbidge</p>
+              <img
+                class="person__image person__image_size_m"
+                src="./images/person_burbidge.png"
+                alt="Photo Margaret Burbidge"
+                />
+            </div>
+            <div class="person person_name_cannon">
+               <p class="person__caption">Annie Jump Cannon</p>
+               <img
+                 class="person__image person__image_size_m"
+                 src="./images/person_cannon.png"
+                 alt="Photo Annie Jump Cannor"
+                 />
               </div>
-            </li>
-          </ul>
+            <div class="person person_name_mitchell">
+               <p class="person__caption">Maria Mitchell</p>
+              <img
+                class="person__image person__image_size_s"
+                src="./images/person_mitchell.png"
+                alt="Photo Maria Mitchell"
+                />
+              </div>
+              <div class="person person_name_tarter">
+              <p class="person__caption">Jill Tarter</p>
+              <img
+                class="person__image person__image_size_m"
+                src="./images/person_tarter.png"
+                alt="Photo Jill Tarter"
+                />
+             </div>
+          </div>
         </section>
-      </main>
+
+            <section class="membership" id="membership">
+                <h2 class="membership__title">
+                  Tornar-se membro da Biblioteca é fácil!
+                </h2>
+                  <ul class="membership__steps">
+                    <li class="step">
+                      <h3 class="step__title">
+                        Step 1
+                        <img
+                          class="step__icon"
+                          src="./images/icon_step_forward.svg"
+                          alt="icon forward"
+                          />
+                      </h3>
+                      <p
+                         class="step__description">
+                        Preenchar o formulário de filiação online ou pessoalmente.
+                      </p>
+                    </li>
+                    <li class="step">
+                      <h3 class="step__title">
+                        Step 2
+                        <img
+                          class="step__icon"
+                          src="./images/icon_step_forward.svg"
+                          alt="incon forward"
+                          />
+                      </h3>
+                      <p class="step__description">
+                        Venha retirar seu cartão da biblioteca na recepção.
+                      </p>
+                    </li>
+                    <li class="step">
+                      <h3 class="step__title">
+                        Step 3
+                        <img
+                        class="step__icon"
+                        src="./images/icon_step_forward.svg"
+                        alt="icon forward"
+                        />
+                      </h3>
+                      <p class="step__description">Assine o verso do cartão.</p>
+                    </li>
+                    <li class="step">
+                      <h3 class="step__title">
+                        Step 4
+                        <img
+                        class="step__icon"
+                        src="./images/icon_step_forward.svg"
+                        alt="icon forward"
+                        />
+                      </h3>
+                      <p class="step__description">
+                        Aproveite todos os benefícios incríveis.
+                      </p>
+                    </li>
+                  </ul>
+                </section>
+              </main>
+
+            <footer class="footer" id="footer">
+                <div class="footer__columns">
+                  <div class="footer__column">
+                    <img src="./images/logo_white.svg" alt="images\logo_white.svg" class="footer__logo"/>
+                  </div>
+                  <div class="footer__column footer__column_funcionamento">
+                    <h2 class="footer__column footer__column_heading">Horário de Funcionamento</h2>
+                      <ul class="footer__list">
+                        <li class="footer__list footer__list_item">Dias úteis: 9h - 20h</li>
+                        <li class="footer__list footer__list_item">Finais de semana: 10h às 18h</li>
+                      </ul>
+                    </div>
+                  <div class="footer__column footer__column_social">
+                    <h2 class="footer__column footer__column_heading">Rede Sociais</h2>
+                      <ul class="footer__list">
+                        <li class="footer__list footer__list_item">
+                          <a href="#" class="footer__column footer__column_link">
+                            <img
+                              src="./images/facebook_white.svg"
+                              class="footer__social footer__social_icon"
+                              alt=""
+                              />
+                            Facebook</a>
+                            </li>
+                          <li class="footer__list footer__list_item">
+                          <a href="#" class="footer__column footer__column_link">
+                            <img
+                              src="./images/instagram_white.svg"
+                              class="footer__social footer__social_icon"
+                              alt=""
+                              />
+                            Instagran</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+          <p class="footer__copy">&copy; Thalles∴</p>
+        </footer>
     </div>
   </body>
 </html>
