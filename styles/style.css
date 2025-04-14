@@ -307,7 +307,7 @@ margin-bottom: 40px;
 
 .membership {
   padding: 100px 0 120px 80px;
-  background-color: #2f80ed;
+  background-color: #057bf2;
   color: #ffffff;
 }
 
@@ -351,29 +351,29 @@ margin-left: 20px;
 
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: #ffffff;
   padding: 60px 80px;
 }
 
 .footer__columns {
   display: flex;
+ }
+
+.footer__column_content_hours {
+  margin-left: auto;
 }
 
-.footer__column_funcionamento{
-margin-left: auto;
+.footer__column_content_social {
+margin-left: 80px;
 }
 
-.footer__column_social {
- margin-left: 80px;
-}
+ .footer__logo {
+  width: 58px;
+  height: 80px;
+ }
 
-.footer__logo {
-width: 58px;
-height: 80px;
-}
-
-.footer__column_heading {
+.footer__column-heading {
   margin-bottom: 40px;
 }
 
