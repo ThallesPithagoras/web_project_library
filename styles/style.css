@@ -360,11 +360,11 @@ margin-left: 20px;
   display: flex;
  }
 
-.footer__content_hours {
+.footer__column_content_hours {
   margin-left: auto;
 }
 
-.footer__content_social {
+.footer__column_content_social {
 margin-left: 80px;
 }
 
