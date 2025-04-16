@@ -386,7 +386,7 @@ margin-left: 80px;
   row-gap: 16px;
 }
 
-.footer__link {
+.footer__column-link {
   display: flex;
   color: #ffffff;
   text-decoration: none;
