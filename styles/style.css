@@ -360,15 +360,15 @@ margin-left: 20px;
   display: flex;
  }
 
-.footer__column_content_hours {
+.footer__content_hours {
   margin-left: auto;
 }
 
-.footer__column_content_social {
+.footer__content_social {
 margin-left: 80px;
 }
 
- .footer__logo {
+.footer__logo {
   width: 58px;
   height: 80px;
  }
@@ -386,7 +386,7 @@ margin-left: 80px;
   row-gap: 16px;
 }
 
-.footer__column_link {
+.footer__link {
   display: flex;
   color: #ffffff;
   text-decoration: none;
@@ -394,7 +394,7 @@ margin-left: 80px;
   column-gap: 10px;
 }
 
-.footer__social_icon {
+.footer__icon {
   width: 16px;
   height: 16px;
 }
